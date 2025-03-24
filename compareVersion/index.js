@@ -12,8 +12,7 @@ function compareVersionStrings(version1, version2) {
     return version1;
 }
 
-// Example usage
 const str1 = ['1', '0'].join('.');  // "1.0"
 const str2 = ['1', '10'].join('.'); // "1.10"
 
-console.log(compareVersionStrings(str1, str2)); // Output: "1.10"
+console.log(compareVersionStrings(str1, str2)); // Output: "1.10" 
